@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Planet Nomad</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+
+        <style>
+            body, h1, h2, h3, h4, h5, p {
+                font-family: 'Amatic SC', serif;
+            }
+            
+            #cf {
+                position:relative;
+                height:281px;
+                width:450px;
+                margin:0 auto;
+            }
+
+            #cf img {
+                position:absolute;
+                left:0;
+                -webkit-transition: opacity 1s ease-in-out;
+                -moz-transition: opacity 1s ease-in-out;
+                -o-transition: opacity 1s ease-in-out;
+                transition: opacity 1s ease-in-out;
+            }
+
+            @keyframes cf3FadeInOut {
+                  0% {
+                      opacity:1;
+                  }
+                  45% {
+                      opacity:1;
+                  }
+                  55% {
+                      opacity:0;
+                  }
+                  100% {
+                      opacity:0;
+                  }
+            }
+
+            #cf img.top {
+                animation-name: cf3FadeInOut;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-duration: 10s;
+                animation-direction: alternate;
+            }
+        </style>
+	</head>
+
+	<body class="w3-wide">
+        <div class="w3-container w3-green">
+            <h1 class="w3-jumbo">Planet Nomad</h1>
+            <p class="w3-xlarge"><span class="w3-">Everything Alive Resides Together Harmoniously</span> So should we.</p>
+        </div>
+        
+        <!--About-->
+        <div class="w3-row-paddding w3-padding-64 w3-container">
+            <div class="w3-container  w3-card-2">
+                <div class="w3-twothird">
+                    <h1 class="w3-jumbo">Lorem Ipsum</h1>
+                    <h5 class="w3-padding-32 w3-large">
+                        <b>Welcome to Planet Nomad, an environmentalist store/vlog dedicated to helping the environment. We are raising money for a trip across the United States and Canada to learn more about the diversity and beauty of life in this country and others. Check out our store to buy original photographs and artwork, or check out our vlogs for videos on everything from endagered animals to vegan recipies. You can help keep up going by going to our <a href="https://www.gofundme.com/2hus2d9w?ssid=761092761&pos=60">"gofundme" page</a> and donating!</b>
+                    </h5>
+                    <br />
+                    <p class="w3-right"><a href="https://www.gofundme.com/2hus2d9w?ssid=761092761&pos=60" class="w3-btn w3-large"><b>Fund Us?</b></a></p>
+                </div>
+                <div class="w3-third w3-center" style="min-height:460px;">
+                    <img src="images/PN_color.png" width="460px" height="460px" style="min-height:50%;">
+                </div>
+            </div>
+        </div>
+        <!--End About-->
+        
+        <!--Grid-->
+        <div class="w3-row-padding w3-center w3-margin-top">
+            <!--Music-->
+            <div class="w3-third">
+                <div class="w3-card-2 w3-btn w3-ripple" style="min-height:460px; margin:0; padding:0;">
+                    <a href="#">
+                        <div id="cf">
+                            <img class="bottom" src="images/Explore.png" width="460px" height="460px" />
+                            <img class="top" src="images/risingsun.png" width="460px" height="460px" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!--Store-->
+            <div class="w3-third">
+                <div class="w3-card-2 w3-btn w3-ripple" style="min-height:460px; margin:0; padding:0;">
+                    <a href="#">
+                        <div id="cf">
+                            <img class="bottom" src="images/breathe.png" width="460px" height="460px" />
+                            <img class="top" src="images/crayfish.png" width="460px" height="460px" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <!--Vlogs-->
+            <div class="w3-third">
+                <div class="w3-card-2 w3-btn w3-ripple" style="min-height:460px; margin:0; padding:0;">
+                    <a href="#">
+                        <div id="cf">
+                            <img class="bottom" src="images/PN_color.png" width="460px" height="460px" />
+                            <img class="top" src="images/PN_black.png" width="460px" height="460px" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--End Grid-->
+	</body>
+</html>
